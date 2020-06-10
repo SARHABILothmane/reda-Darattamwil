@@ -1,0 +1,331 @@
+<div class="container register">
+    <div class="row">
+        <div class="col-md-6 register-left">
+            <!-- <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" /> -->
+            <h3>{{'navBar.simulteurFormBonjour' | translate}}</h3>
+            <p>{{'navBar.simulteurFormP1' | translate}}</p>
+
+            <div class="row">
+                <div class="col-md-4 img1">
+                    <img src="../../../assets/images/partenariat/logo-assafa-layout.png" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img src="../../../assets/images/partenariat/logo_umnia.png" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img src="../../../assets/images/partenariat/bti bank.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../../../assets/images/partenariat/logo2Erreda.png" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img src="../../../assets/images/partenariat/Akhdar.png" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img src="../../../assets/images/partenariat/logo-YouserPng.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../../../assets/images/partenariat/darElaman.png" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img src="../../../assets/images/partenariat/bti bank.png" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img src="../../../assets/images/partenariat/logo-assafa-layout.png" alt="">
+                </div>
+
+            </div>
+            <div class="col-12 mt-5 simulatinRslt" *ngIf="statutStatut">
+                <h6 class="align-self-center">{{'navBar.simulteurFormRevenueGo' | translate}}</h6>
+                <input type="submit" name="" value="{{'navBar.simulteurFormRevenuelogin' | translate}}" /><br/>
+            </div>
+            <!-- <div class="col-12 m-auto">
+                <input type="submit" name="" value="{{'navBar.simulteurFormRevenuelogin' | translate}}" /><br/>
+            </div> -->
+
+        </div>
+        <div class="col-md-6 register-right">
+            <div class="row">
+                <div class="d-flex justify-content-center col-md-12 swift">
+                    <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Simulateur Profisionnel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Simulateur Rapide</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-12 tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <h3 class="register-heading">{{'navBar.simulteurFormTitle' | translate}}</h3>
+                        <div class="row register-form">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="{{'navBar.simulteurFormNom' | translate}} *" value="" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="{{'navBar.simulteurFormPrenom' | translate}}*" value="" />
+                                </div>
+                            </div>
+                            <!-- <div class="col-md-12">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <h6>Genre</h6>
+                                            <div class="btn-group" data-toggle="buttons">
+                                                <label class="btn">
+                                                <input type="radio" name='gender1' checked><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Homme</span>
+                                              </label>
+                                                <label class="btn active">
+                                                <input type="radio" name='gender1'><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> Femme</span>
+                                              </label>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="{{'navBar.simulteurFormEmail' | translate}}" value="" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="{{'navBar.simulteurFormTele' | translate}}*" value="" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="{{'navBar.simulteurFormEmail' | translate}}" value="" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="{{'navBar.simulteurFormRevenueNet' | translate}}*" value="" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="{{'navBar.simulteurFormRevenueAutreRevenue' | translate}}*" value="" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="{{'navBar.simulteurFormRevenueApport' | translate}}*" value="" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="{{'navBar.simulteurFormRevenueDuree' | translate}}*" value="" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="{{'navBar.simulteurFormRevenueMontant' | translate}}*" value="" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                                <div class="form-group">
+                                    <select class="form-control">
+                                    <option class="hidden"  selected disabled>{{'navBar.simulteurFormRevenueNature' | translate}}</option>
+                                    <option>Auto</option>
+                                    <option>Equipements</option>
+                                    <option>Immobilier</option>
+                                    <option>Investisement</option>
+                                </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="{{'navBar.simulteurFormRevenueFontion' | translate}}*" value="" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="{{'navBar.simulteurFormRevenueAutre' | translate}}" value="" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="{{'navBar.simulteurFormRevenueAutre' | translate}}" value="" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex  justify-content-center">
+                                    <!-- <button class="btn btn-info btn-lg " >Cliquez pour Ajouter une Statut</button> -->
+                                    <input (click)="statutStatut =!statutStatut" (click)="add()" type="submit" class="btnRegister" value="{{'navBar.simulteurFormRevenueCalcul' | translate}}" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <h3 class="register-heading">{{'navBar.simulteurFormTitle' | translate}}</h3>
+                        <div class="row register-form">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <select class="form-control">
+                                    <option class="hidden"  selected disabled>{{'navBar.simulteurFormRevenueNature' | translate}}</option>
+                                    <option>Auto</option>
+                                    <option>Equipements</option>
+                                    <option>Immobilier</option>
+                                    <option>Investisement</option>
+                                </select>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Nom et Prenom*" value="" />
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <h6>Genre</h6>
+                                            <div class="btn-group" data-toggle="buttons">
+                                                <label class="btn">
+                                            <input type="radio" name='gender1' checked><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Homme</span>
+                                          </label>
+                                                <label class="btn active">
+                                            <input type="radio" name='gender1'><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> Femme</span>
+                                          </label>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="form-group">
+
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">1</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">2</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
+                                        <label class="form-check-label" for="inlineRadio3">3 (disabled)</label>
+                                    </div>
+                                </div> -->
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="{{'navBar.simulteurFormRevenueNet' | translate}}*" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="{{'navBar.simulteurFormRevenueAutre' | translate}}*" value="" />
+                                </div>
+
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="{{'navBar.simulteurFormRevenueApport' | translate}}*" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="{{'navBar.simulteurFormRevenueMontant' | translate}}*" value="" />
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="{{'navBar.simulteurFormRevenueFontion' | translate}}*" value="" />
+                                </div>
+                                <div class="d-flex  justify-content-center">
+                                    <!-- <button class="btn btn-info btn-lg " >Cliquez pour Ajouter une Statut</button> -->
+                                    <input (click)="statutStatut =!statutStatut" (click)="add()" type="submit" class="btnRegister" value="{{'navBar.simulteurFormRevenueCalcul' | translate}}" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- <div class="container">
+
+
+    <div class="row">
+        <div class="col-xs-12">
+            <br> Vertical radio:
+            <br>
+            <div class="btn-group btn-group-vertical" data-toggle="buttons">
+                <label class="btn active">
+            <input type="radio" name='gender1' checked><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i> <span>  Male</span>
+          </label>
+                <label class="btn">
+            <input type="radio" name='gender1'><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-dot-circle-o fa-2x"></i><span> Female</span>
+          </label>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-xs-12">
+            <hr> Horizontal radio:
+            <br>
+            <div class="btn-group" data-toggle="buttons">
+                <label class="btn active">
+            <input type="radio" name='gender2' checked><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-check-circle-o fa-2x"></i><span> Male</span>
+          </label>
+                <label class="btn">
+            <input type="radio" name='gender2'><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-check-circle-o fa-2x"></i><span> Female</span>
+          </label>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+</div> -->
+
+<!-- <div class="page-wrapper bg-gra-01 p-t-180 p-b-100 font-poppins">
+    <div class="wrapper wrapper--w780">
+        <div class="card card-3">
+            <div class="card-heading"></div>
+            <div class="card-body">
+                <h2 class="title">Registration Info</h2>
+                <form method="POST">
+                    <div class="input-group">
+                        <input class="input--style-3" type="text" placeholder="Name" name="name">
+                    </div>
+                    <div class="input-group">
+                        <input class="input--style-3 js-datepicker" type="text" placeholder="Birthdate" name="birthday">
+                        <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                    </div>
+                    <div class="input-group">
+                        <div class="rs-select2 js-select-simple select--no-search">
+                            <select name="gender">
+                                <option disabled="disabled" selected="selected">Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Other</option>
+                            </select>
+                            <div class="select-dropdown"></div>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <input class="input--style-3" type="email" placeholder="Email" name="email">
+                    </div>
+                    <div class="input-group">
+                        <input class="input--style-3" type="text" placeholder="Phone" name="phone">
+                    </div>
+                    <div class="p-t-10">
+                        <button class="btn btn--pill btn--green" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div> -->

@@ -1,0 +1,171 @@
+<div class="super_container">
+    <!-- <p dir="ltr">Write this text right-to-left!</p> -->
+    <!-- Header -->
+
+    <header class="header">
+
+        <!-- Top Bar -->
+        <div class="top_bar">
+            <div class="top_bar_container ">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col">
+                            <div class="top_bar_content d-flex flex-row align-items-center justify-content-start ">
+                                <ul class="top_bar_contact_list">
+                                    <li>
+                                        <div class="question">{{ 'navBar.question' | translate }}</div>
+                                        <!-- <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                        <div class="question"> Heures d'ouverture Lun-Ven de 9h à 13h </div> -->
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                        <div>+212 661-596074</div>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                        <div>contact@darattamwil.com </div>
+                                    </li>
+                                </ul>
+                                <div class="top_bar_login ml-auto">
+                                    <div class="login_button"><a routerLink="/darAttamwil/S'inscrire">{{ 'navBar.inscrire' | translate }} </a></div>
+                                    <!-- <div class="login_button"><a href="#">{{ 'navBar.ou' | translate }} {{ 'navBar.seConnecter' | translate }}</a></div> -->
+                                </div>
+                                <div class="top_bar_login">
+
+                                    <div class="login_button"><a routerLink="/darAttamwil/Seconnecter">{{ 'navBar.seConnecter' | translate }}</a></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header Content -->
+        <div class="header_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="header_content d-flex flex-row align-items-center justify-content-start">
+                            <div class="logo_container">
+                                <a href="#">
+                                    <!-- <div class="logo_text">Unic<span>at</span></div> -->
+                                    <div class="logo_text"><span><img src="../../assets/images/logoDaratamwil_Small.png"></span></div>
+                                </a>
+                            </div>
+                            <nav class="main_nav_contaner ml-auto">
+                                <ul class="main_nav">
+                                    <li [routerLinkActive]="['active']" routerLinkActiveOptions="{exact:true}"><a routerLink="/darAttamwil/acceuil">{{ 'navBar.acceuil' | translate }}</a></li>
+                                    <li routerLinkActive="active" routerLinkActiveOptions="{exact:true}"><a routerLink="/darAttamwil/apropos">{{ 'navBar.apropos' | translate }}</a></li>
+                                    <li routerLinkActive="active" routerLinkActiveOptions="{exact:true}"><a routerLink="/darAttamwil/particuliers">{{ 'navBar.particulier' | translate }}</a></li>
+                                    <!-- <li routerLinkActive="active" routerLinkActiveOptions="{exact:true}"><a routerLink="/darAttamwil/entreprises">{{ 'navBar.entreprise' | translate }}</a></li> -->
+                                    <li routerLinkActive="active" routerLinkActiveOptions="{exact:true}"><a routerLink="/darAttamwil/professionels">professionels</a></li>
+                                    <li routerLinkActive="active" routerLinkActiveOptions="{exact:true}"><a routerLink="/darAttamwil/actualite">{{ 'navBar.actualite' | translate }}</a></li>
+                                    <li routerLinkActive="active" routerLinkActiveOptions="{exact:true}"><a routerLink="/darAttamwil/contact">{{ 'navBar.contact' | translate }}</a></li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-language" aria-hidden="true"></i><span class="caret"></span></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <!-- <li><a href="#"><i class="fa fa-language" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-language" aria-hidden="true"></i></a></li> -->
+                                            <!-- <li><a (click)="useLanguage('francais')" href="#">Français</a></li>
+                                            <li><a (click)="useLanguage('anglais')" href="#">العربية</a></li> -->
+                                            <!-- <li><button (click)="useLanguage('francais')">en</button></li><br> -->
+                                            <!-- <a><i (click)="useLanguage('francais')" class="fa fa-language" aria-hidden="true"></i></a><br>
+                                            <a><i (click)="useLanguage('anglais')" class="fa fa-language" aria-hidden="true"></i></a><br> -->
+                                            <a (click)="useLanguage('francais')"><img src="../../../assets/images/fr.png" width="20%"></a> {{ 'navBar.français' | translate }}<br>
+                                            <a (click)="useLanguage('arabe')"><img src="../../../assets/images/ar.png" width="20%"> {{ 'navBar.arabe' | translate }}</a>
+                                            <!-- <button (click)="useLanguage('anglais')">de</button> -->
+                                            <!-- <li><a href="#">العربية</a></li> -->
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
+
+                                <!-- Hamburger -->
+
+                                <!-- <div class="shopping_cart"><i class="fa fa-language" aria-hidden="true"></i></div> -->
+
+                                <!-- <li class="dropdown language-selector">
+                                        Language:
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-close-others="true">
+                                            <img src="../../../assets/images/down.png" />
+                                        </a>
+                                        <ul class="dropdown-menu pull-right">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../../../assets/images/down.png" />
+                                                    <span>Deutsch</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li> -->
+                                <!-- 
+                                <select class="shopping_cart selectpicker" data-width="fit">
+                                    <option> <img src="../../../assets/images/down.png" /></option>
+                                  <option  data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
+                                </select> -->
+                                <div class="hamburger menu_mm">
+                                    <i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+                                </div>
+
+
+                            </nav>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header Search Panel -->
+        <div class="header_search_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="header_search_content d-flex flex-row align-items-center justify-content-end">
+                            <form action="#" class="header_search_form">
+                                <input type="search" class="search_input" placeholder="Search" required="required">
+                                <button class="header_search_button d-flex flex-column align-items-center justify-content-center">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu -->
+
+    <div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+        <div class="menu_close_container">
+            <div class="menu_close">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="search">
+            <form action="#" class="header_search_form menu_mm">
+                <input type="search" class="search_input menu_mm" placeholder="Search" required="required">
+                <button class="header_search_button d-flex flex-column align-items-center justify-content-center menu_mm">
+                <i class="fa fa-search menu_mm" aria-hidden="true"></i>
+            </button>
+            </form>
+        </div>
+        <nav class="menu_nav">
+            <ul class="menu_mm">
+                <li class="menu_mm"><a href="#">{{ 'navBar.acceuil' | translate }}</a></li>
+                <li class="menu_mm"><a href="about.html">{{ 'navBar.apropos' | translate }}</a></li>
+                <li class="menu_mm"><a href="courses.html">{{ 'navBar.particulier' | translate }}</a></li>
+                <li class="menu_mm"><a href="blog.html">{{ 'navBar.entreprise' | translate }}</a></li>
+                <li class="menu_mm"><a href="#">{{ 'navBar.actualite' | translate }}</a></li>
+                <li class="menu_mm"><a href="contact.html">{{ 'navBar.contact' | translate }}</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+</div>

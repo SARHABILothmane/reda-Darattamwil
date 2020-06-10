@@ -1,0 +1,219 @@
+.register {
+    /* background: -webkit-linear-gradient(left, #095522, #0f853c); */
+    /* background: #c1b744; #007b3b*/
+    /* margin-top: 3%; */
+    background: #007b3b;
+    padding: 3%;
+    margin-top: -150px;
+    position: relative;
+    z-index: 1;
+}
+
+.simulatinRslt h6 {
+    background-color: red;
+}
+
+.register-left {
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+
+.register-left input {
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 13%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+
+.register-right {
+    background: #fff;
+    /* background: -webkit-linear-gradient(left, #095522, #0f853c); */
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+
+.img1 img {
+    width: 100%;
+}
+
+.register-left img {
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 50%;
+    /* -webkit-animation: mover 2s infinite alternate;
+    animation: mover 1s infinite alternate; */
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.register-left p {
+    /* font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%; */
+}
+
+.register .register-form {
+    padding: 10%;
+    margin-top: 10%;
+}
+
+.btnRegister {
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #007b3b;
+    color: #fff;
+    font-weight: 600;
+    width: 70%;
+    cursor: pointer;
+}
+
+.register .nav-tabs {
+    margin-top: 3%;
+    border: none;
+    background: #007b3b;
+    border-radius: 1.5rem;
+    width: 80%;
+    float: right;
+}
+
+.register .nav-tabs .nav-link {
+    padding: 1%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-color: transparent;
+}
+
+.register .nav-tabs .nav-link:hover {
+    border: none;
+}
+
+.register .nav-tabs .nav-link.active {
+    width: 100%;
+    color: #384158;
+    border: 2px solid #384158;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.register-heading {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+}
+
+
+/*chak*/
+
+label.btn span {
+    font-size: 1.5em;
+}
+
+label input[type="radio"]~i.fa.fa-circle-o {
+    color: #c8c8c8;
+    display: inline;
+}
+
+label input[type="radio"]~i.fa.fa-dot-circle-o {
+    display: none;
+}
+
+label input[type="radio"]:checked~i.fa.fa-circle-o {
+    display: none;
+}
+
+label input[type="radio"]:checked~i.fa.fa-dot-circle-o {
+    color: #007b3b;
+    display: inline;
+}
+
+label:hover input[type="radio"]~i.fa {
+    color: #007b3b;
+}
+
+label input[type="checkbox"]~i.fa.fa-square-o {
+    color: #c8c8c8;
+    display: inline;
+}
+
+label input[type="checkbox"]~i.fa.fa-check-square-o {
+    display: none;
+}
+
+label input[type="checkbox"]:checked~i.fa.fa-square-o {
+    display: none;
+}
+
+label input[type="checkbox"]:checked~i.fa.fa-check-square-o {
+    color: #007b3b;
+    display: inline;
+}
+
+label:hover input[type="checkbox"]~i.fa {
+    color: #007b3b;
+}
+
+div[data-toggle="buttons"] label.active {
+    color: #007b3b;
+}
+
+div[data-toggle="buttons"] label {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2em;
+    text-align: left;
+    white-space: nowrap;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: none;
+    border: 0px solid #c8c8c8;
+    border-radius: 3px;
+    color: #c8c8c8;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+div[data-toggle="buttons"] label:hover {
+    color: #007b3b;
+}
+
+div[data-toggle="buttons"] label:active,
+div[data-toggle="buttons"] label.active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}

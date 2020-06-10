@@ -1,0 +1,561 @@
+/*
+* ----------------------------------------------------------------------------------------
+Author       : EcologyTheme
+Author  Uri  : www.ecologytheme
+Template Name: Eduwise - Education Template
+Version      : 1.0                                          
+* ----------------------------------------------------------------------------------------
+*/
+
+
+/*====================================
+===[ Style Map ]===
+
+Default Css
+Preloader
+Search Style
+Scroll To Top
+Pagination Style
+
+
+01 Index Style
+====================
+Index nav Style
+Popular Highlight Style
+Index Courses Area Style
+Index About Style
+Index Up Comming Events
+Index Testimonial
+Our Blog
+Our Sponsor
+Index Footer
+
+Index Two Header
+==========================
+Features Possibilities
+Learn Step
+Index Two Popular Courses
+Register Area
+Our Instructiors
+Index Two Testimonial
+Index Two Blog
+Team Group
+Footer Two
+
+Index Three Header
+==========================
+Cources Features
+Think About Us
+Online Videos
+Testimonial Three
+Our Team Membar
+Pricieng Style
+Download App
+Footer Three
+
+Header Inner Pages
+===========================
+Blog Signle Style
+Blog Post Style
+widget Blog and Post Page
+Contact Info Wrapper
+Google Map
+About Unlimited Possibilities
+About Our Instructors
+Count Student
+Faq About
+Become A Instrauctor
+Teachers Profiles
+Courses Pages
+Related Courses Wrapper
+Event Pages		
+======================================*/
+
+
+/* Variables */
+
+
+/* body {
+    overflow-x: hidden;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #6a7a83;
+    overflow-x: hidden !important;
+} */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: #FFFFFF;
+    color: #a5a5a5;
+}
+
+p {
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 15px;
+    color: #6a7a83;
+    font-family: "Rubik", sans-serif;
+}
+
+h2,
+h3 {
+    color: #333146;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+a,
+a:hover,
+a:focus {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    outline: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: outside none none;
+    list-style-type: none;
+}
+
+.disabled {
+    display: none;
+}
+
+.title h2 {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+.container {
+    max-width: 1240px;
+}
+
+
+/*=======[ Preloader Style ]========*/
+
+
+/*=======[LogIn & Signup Options ]========*/
+
+
+/*=======[ Search Style ]========*/
+
+
+/*=========== {  Scroll to top section css} ===========*/
+
+#scroll-top .pos-rtive {
+    position: relative;
+}
+
+#scroll-top h2 {
+    display: none;
+}
+
+#scroll-top .to-top {
+    display: none;
+}
+
+#scroll-top .to-top a {
+    -webkit-box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.05);
+    background: #007b3b;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 20px;
+    height: 53px;
+    width: 53px;
+    line-height: 53px;
+    position: fixed;
+    text-align: center;
+    top: 89%;
+    right: 90px;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    z-index: 999;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+#scroll-top .to-top a i:before {
+    margin: 0;
+    font-size: 16px;
+}
+
+#scroll-top .to-top:hover {
+    background: #092ace none repeat scroll 0 0;
+    color: #ffffff;
+}
+
+
+/*=========== {  Pagination Style} ===========*/
+
+.pagination_blog {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.pagination_blog ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.pagination_blog ul li {
+    margin: 0 7px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #6a7a83;
+    cursor: pointer;
+}
+
+.pagination_blog ul li a {
+    color: #333146;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.pagination_blog ul li a i:before {
+    color: #6a7a83;
+    font-size: 14px;
+    margin: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.pagination_blog ul li.current {
+    border: 1px solid #007b3b;
+}
+
+.pagination_blog ul li.current a {
+    color: #007b3b;
+}
+
+
+/*=======[ 01 Index Style ]========*/
+
+
+/*=======[ Index Courses Area Style ]========*/
+
+
+/*=======[ Index About Style ]========*/
+
+
+/*=======[ Index Up Comming Events ]========*/
+
+.events-area {
+    background: #ffffff;
+    /* padding: 100px 0; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.events-area .events_full_box {
+    margin-bottom: 50px;
+}
+
+.events-area .events_full_box:last-child {
+    margin-bottom: 0px;
+}
+
+.events-area .events_single_left .event_info {
+    width: 60%;
+    padding: 45px 30px 45px 90px !important;
+}
+
+.events-area .events_single_left .event_dete {
+    left: 0;
+}
+
+.events-area .events_single {
+    position: relative;
+    min-height: 280px;
+    -webkit-box-shadow: 0px 0px 81px 0px rgba(47, 47, 47, 0.05);
+    box-shadow: 0px 0px 81px 0px rgba(47, 47, 47, 0.05);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.events-area .events_single:hover {
+    -webkit-box-shadow: 0px 0px 81px 0px rgba(47, 47, 47, 0.1);
+    box-shadow: 0px 0px 81px 0px rgba(47, 47, 47, 0.1);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.events-area .events_single .event_banner {
+    width: 44%;
+}
+
+.events-area .events_single .event_banner img {
+    width: 100%;
+}
+
+.events-area .events_single .event_info {
+    width: 60%;
+    padding: 45px 30px 45px 70px;
+}
+
+.events-area .events_single .event_info h3 {
+    line-height: 36px;
+}
+
+.events-area .events_single .event_info h3 a {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    font-weight: 700;
+    color: #333146;
+    font-size: 25px;
+}
+
+.events-area .events_single .event_info h3 a:hover {
+    color: #007b3b;
+}
+
+.events-area .events_single .event_info .events_time {
+    padding: 25px 0 30px;
+}
+
+.events-area .events_single .event_info .events_time span {
+    color: #333146;
+    font-size: 15px;
+    margin-right: 25px;
+}
+
+.events-area .events_single .event_info .events_time span i {
+    padding-right: 10px;
+    color: #092ace;
+    font-size: 16px;
+}
+
+.events-area .events_single .event_info .events_time span i:before {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.events-area .events_single .event_info .events_time .time {
+    text-transform: uppercase;
+}
+
+.events-area .events_single .event_info p {
+    margin: 0;
+    font-size: 15px;
+    color: #6a7a83;
+}
+
+.events-area .events_single .event_dete {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #007b3b;
+    height: 60px;
+    width: 60px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.events-area .events_single .event_dete span {
+    display: inherit;
+    color: #ffffff;
+    line-height: 20px;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+}
+
+.events-area .events_single .event_dete .date {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/*=======[ Index Testimonial ]========*/
+
+@keyframes bounce_fountainG {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/*=======[ Index Two Header ]========*/
+
+
+/*=======[ Index Three Header ]========*/
+
+
+/*=======[ Cources Features ]========*/
+
+
+/*=======[ Think About Us ]========*/
+
+
+/*=======[ Online Videos ]========*/
+
+@keyframes bounce_4b {
+    0% {
+        -webkit-transform: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0;
+    }
+    50% {
+        -webkit-transform: translate(-50%, -50%) scale(1.1);
+        transform: translate(-50%, -50%) scale(1.1);
+        opacity: 0.3;
+    }
+    100% {
+        -webkit-transform: translate(-50%, -50%) scale(1.2);
+        transform: translate(-50%, -50%) scale(1.2);
+        opacity: 0;
+    }
+}
+
+
+/*=======[ Testimonial Three ]========*/
+
+
+/*=======[ Our Team Membar ]========*/
+
+
+/*---------- Pricieng Style-------*/
+
+
+/*=======[ Blog Signle ]========*/
+
+
+/*
+* ----------------------------------------------------------------------------------------
+Author       : EcologyTheme
+Author  Uri  : www.ecologytheme.com
+Template Name: Education Html5 Template
+Version      : 1.0                                          
+* ----------------------------------------------------------------------------------------
+*/
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 1281px) and (max-width: 1690px) {
+    #scroll-top .to-top a {
+        font-size: 12px;
+        height: 45px;
+        width: 45px;
+        line-height: 45px;
+        right: 30px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+    #scroll-top .to-top a {
+        font-size: 12px;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        right: 15px;
+    }
+    section {
+        overflow: hidden !important;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    #scroll-top .to-top a {
+        font-size: 12px;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        right: 15px;
+    }
+    section {
+        overflow: hidden;
+    }
+    .title h2 {
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+    /*========= Index Two =========*/
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    #scroll-top .to-top a {
+        font-size: 12px;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        right: 15px;
+    }
+    section {
+        overflow: hidden !important;
+    }
+    .events-area .events_single {
+        display: inherit;
+    }
+    .events-area .events_single_left {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .events-area .events_single .event_banner {
+        width: 100%;
+    }
+    .events-area .events_single .event_info {
+        width: 100%;
+        padding: 30px 15px;
+    }
+    .events-area .events_single .event_info h3 a {
+        font-size: 22px;
+    }
+    .events-area .events_single .event_info .events_time {
+        display: inline-grid;
+    }
+    .events-area .events_single_left .event_info {
+        width: 100%;
+        padding: 30px 15px !important;
+    }
+    /*============= Index Two==========*/
+    /*========== Index Three ==========*/
+    /* ============= Inner Pages header  ============*/
+}
+
+
+/* Wide Mobile Layout: 480px. */

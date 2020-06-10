@@ -1,0 +1,54 @@
+{
+    "navBar": {
+        "acceuil": "acceuil",
+        "apropos": "apropos",
+        "particulier": "particulier",
+        "entreprise": "entreprise",
+        "actualite": "actualite",
+        "contact": "contact",
+        "arabe": "Arabe",
+        "français": "Français",
+        "question": "Avec vous des questions?",
+        "inscrire": "S'inscrire",
+        "seConnecter": "Se connecter",
+        "ou": "Ou",
+
+        "home_slide_title1": "Votre Courtier en Finance Participatif",
+        "home_slide_SoTitle1": "Votre Courtier en Finance Participatif",
+        "home_slide_title2": "Le Premier Courtier en Finance Participatif au Maroc",
+        "home_slide_SoTitle2": "Le Premier Courtier en Finance Participatif au Maroc",
+        "home_slide_title3": "Votre Courtier en Finance Participatif",
+        "home_slide_SoTitle3": "Votre Courtier en Finance Participatif",
+
+        "simulteurFormBonjour": "Bonjour",
+        "simulteurFormP1": "Comparez les banques participatives au Maroc simple & gratuit",
+        "simulteurFormP2": "Le montanat est :",
+        "simulteurFormTitle": "SIMULATEUR DE FINANCEMEMNT",
+        "simulteurFormNom": "Nom *",
+        "simulteurFormPrenom": "Prenom *",
+        "simulteurFormEmail": "Email",
+        "simulteurFormTele": "Telephone *",
+        "simulteurFormRevenueNet": "Revenue Net *",
+        "simulteurFormRevenueAutreRevenue": "Autre Revenue Net ",
+        "simulteurFormRevenueMontant": "Montant *",
+        "simulteurFormRevenueDuree": "Durée *",
+        "simulteurFormRevenueFontion": "Fonction *",
+        "simulteurFormRevenueNature": "Nature de besion",
+        "simulteurFormRevenueApport": "Apport *",
+        "simulteurFormRevenueAutre": "Autre",
+        "simulteurFormRevenueCalcul": "Calculer",
+        "simulteurFormRevenueGo": "Pour avoir un financement pour votre immobile ",
+        "simulteurFormRevenuelogin": "S'inscrire",
+
+
+
+
+
+        "text": "",
+        "greeting": "Hallo {{name}}!",
+        "demo.title": "aya haja",
+        "demo.text": "aya haja ",
+        "demo.greeting": "Hello {{name}}"
+    }
+
+}

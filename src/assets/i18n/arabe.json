@@ -1,0 +1,50 @@
+{
+    "navBar": {
+        "acceuil": "دار التمويل",
+        "apropos": "من نحن",
+        "particulier": "خاص",
+        "entreprise": "شركة",
+        "actualite": "مستجدات",
+        "contact": "الاتصال",
+        "arabe": "العربية",
+        "français": "الفرنسية",
+        "question": "هل لديك اي سؤال؟",
+        "inscrire": "تسجيل",
+        "seConnecter": "افتح حسابك",
+        "ou": "أو",
+
+        "home_slide_title1": "وسيطك المالي التشاركي",
+        "home_slide_SoTitle1": "وسيطك المالي التشاركي",
+        "home_slide_title2": "أول وسيط مالي بالمشاركة في المغرب",
+        "home_slide_SoTitle2": "أول وسيط مالي بالمشاركة في المغرب",
+        "home_slide_title3": "وسيطك المالي التشاركي",
+        "home_slide_SoTitle3": "وسيطك المالي التشاركي",
+
+        "simulteurFormBonjour": "مرحبا بكم",
+        "simulteurFormP1": "قارن بين البنوك المشاركة في المغرب  بسيطة ومجانية",
+        "simulteurFormP2": "المبلغ هو",
+        "simulteurFormTitle": "محاكاة التمويل",
+
+
+        "simulteurFormNom": "الاسم *",
+        "simulteurFormPrenom": "النسب *",
+        "simulteurFormEmail": " البريد الإلكتروني",
+        "simulteurFormTele": " رقم الهاتف *",
+        "simulteurFormRevenueNet": "صافي الدخل",
+        "simulteurFormRevenueAutreRevenue": "صافي الدخل الآخر",
+        "simulteurFormRevenueMontant": "المبلغ *",
+        "simulteurFormRevenueDuree": "المدة *",
+        "simulteurFormRevenueFontion": " الوظيفة *",
+        "simulteurFormRevenueNature": " طبيعة الحاجة*",
+        "simulteurFormRevenueApport": "الإدخال *",
+        "simulteurFormRevenueAutre": "معلومات أخرى",
+        "simulteurFormRevenueCalcul": "احسب",
+        "simulteurFormRevenueGo": "للحصول على تمويل لهاتفك النقال",
+        "simulteurFormRevenuelogin": "افتح حسابك",
+
+
+
+        "text": "",
+        "greeting": "Hallo {{name}}!"
+    }
+}
